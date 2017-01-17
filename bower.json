@@ -1,0 +1,33 @@
+{
+  "name": "edb-filter",
+  "version": "0.9.0",
+  "authors": [
+    "Tom H Anderson <tom.h.anderson@gmail.com>"
+  ],
+  "description": "An HTML filter mechanism for zfcampus/zf-doctrine-querybuilder",
+  "main": [
+    "dist/edbFilter.js",
+    "dist/template"
+  ],
+  "keywords": [
+    "filter",
+    "doctrine",
+    "querybuilder"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/API-Skeletons/angular-edb-filter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.6.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
