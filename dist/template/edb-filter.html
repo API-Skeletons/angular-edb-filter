@@ -38,10 +38,10 @@
 
 <i class="btn btn-info btn-sm fa"
   role="button"
-  ng-class="{ 'fa-sort-desc': direction == 'desc', 'fa-sort-asc': direction == 'asc', 'fa-sort': direction == '' }"
+  ng-class="{ 'fa-sort-desc': direction == 'asc', 'fa-sort-asc': direction == 'desc', 'fa-sort': direction == '' }"
   ng-init="direction = ''"
   ng-click="
-  direction = (direction == 'desc') ? 'asc': 'desc';
+  direction = (direction == 'asc') ? 'desc': 'asc';
   $parent.orderBy({
     'alias': alias,
     'type': 'field',
