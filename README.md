@@ -10,13 +10,17 @@ As an Angular directive edbFilter provides a filtering form:
 ```
 
 Closed (toggled by filter icon)
+
 ![edbFilter closed](https://raw.githubusercontent.com/API-Skeletons/angular-edb-filter/master/media/closed.png)
 
 Open
+
 ![edbFilter open](https://raw.githubusercontent.com/API-Skeletons/angular-edb-filter/master/media/open.png)
 
 Filters
+
 ![edbFilter filters](https://raw.githubusercontent.com/API-Skeletons/angular-edb-filter/master/media/filters.png)
+
 
 An edbFilter requires two `$parent` level functions, `filter()` and `orderBy()`.
 
