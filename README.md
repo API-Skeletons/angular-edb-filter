@@ -6,7 +6,7 @@ and in symmmetry with [zfcampus/zf-apigility-doctrine](https://github.com/zfcamp
 As an Angular directive edbFilter provides a filtering form:
 
 ```html
-<edb-filter field="bucket" alias="row">Bucket</edb-filter>
+<edb-filter field="bucket" alias="row" filter="filterFunction" order-by="orderByFunction">Bucket</edb-filter>
 ```
 
 Closed (toggled by filter icon)
@@ -22,7 +22,7 @@ Filters
 ![edbFilter filters](https://raw.githubusercontent.com/API-Skeletons/angular-edb-filter/master/media/filters.png)
 
 
-An edbFilter requires two `$parent` level functions, `filter()` and `orderBy()`.
+A `filter()` and `orderBy()` function must be assigned to each edb-filter.
 
 
 `filter` and `orderBy` functions

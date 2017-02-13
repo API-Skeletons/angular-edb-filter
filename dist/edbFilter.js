@@ -4,7 +4,9 @@ angular.module('edbFilter', [])
     restrict: 'E',
     scope: {
       field: "@field",
-      alias: "@alias"
+      alias: "@alias",
+      filter: "=filter",
+      orderBy: "=orderBy"
     },
     templateUrl: 'bower_components/angular-edb-filter/dist/template/edb-filter.html',
     transclude: true,
